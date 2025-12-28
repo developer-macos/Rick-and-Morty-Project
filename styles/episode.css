@@ -1,0 +1,28 @@
+/* This is the episodes styles. No copyright or you get a DMCA from the MishVo Studio */
+
+.header{
+ background-color: black;
+ height: 803px;
+}
+
+.container {
+ max-width: 1184px;
+ height: 49px;
+}
+
+
+.search {
+ margin-left: 1188px;
+ border-radius: 20px;
+ color: #FAFAFA;
+ font-family: "Montserrat Alternates", sans-serif;
+ font-weight: 600;
+font-style: bold;
+width: 124px;
+height: 42px;
+background-color: black;
+}
+
+.text1{
+    color: white;
+}
