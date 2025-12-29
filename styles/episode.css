@@ -25,4 +25,23 @@ background-color: black;
 
 .text1{
     color: white;
+    max-width: 482px;
+    max-height: 196px;
+    margin-left: 128px;
+    margin-top: 200px;
+}
+
+.text1 h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100px;
+}
+
+.text1 p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
 }
