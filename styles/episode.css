@@ -201,3 +201,76 @@ select {
 }
 
 
+
+
+/* FOOTER */
+.footer {
+    background: linear-gradient(180deg, #0b1419, #050a0e);
+    padding: 60px 80px 30px;
+    color: #b7c0c6;
+}
+
+.footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.footer-brand img {
+    width: 220px;
+}
+
+/* Center links */
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    opacity: 0.9;
+    transition: opacity 0.25s ease;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+}
+
+/* Social icons */
+.footer-socials {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-socials a {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    border: 1px solid #2b3a42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.25s ease, border 0.25s ease;
+}
+
+.footer-socials a:hover {
+    background: #1a242b;
+    border-color: #3a4a52;
+}
+
+.footer-socials img {
+    width: 22px;
+    height: 22px;
+}
+
+/* Bottom text */
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    opacity: 0.6;
+}
